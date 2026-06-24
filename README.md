@@ -67,8 +67,13 @@ To test the performance of the different branch predictors, a baseline risc-v co
 
 For Benchmarking purposes, CoreMark, Dhrystone, Embench-IoT and RISCV-Tests have been used. These benchmarks have been developed by others and have been configured according to our requirements. To use these, the folders (coremark, dhrystone, embench, riscv-tests) must be copied from [link](https://github.com/TalhaIsrar/Branch_Predictor_Exploration_for_RISC-V_Softcores) into the root directory of this repo.
 
----
+To aid reproducibility, the following command automates this process and should be run before usage commands are run:
 
+```bash
+./prepare.sh
+```
+
+---
 ## 🔄 Usage (New)
 To run coremark or embench_iot the provided scripts can be used: 
 
